@@ -14,7 +14,7 @@ public class Account {
     }
 
     public Account(String customerName, String customerEmailAddress, String customerPhoneNumber) {
-        this("36578", 100.23, customerName, customerEmailAddress, customerPhoneNumber);
+        this("36578", 100.55, customerName, customerEmailAddress, customerPhoneNumber);
     }
 
     public Account(String number, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber) {
@@ -32,7 +32,7 @@ public class Account {
     }
 
     public void withdrawl(double withdrawlAmount) {
-        if (this.balance - withdrawlAmount <= 0) {
+        if (this.balance - withdrawlAmount <0) {
             System.out.println("Only " + this.balance + " available. Withdrawl not processed");
         } else {
             this.balance -= withdrawlAmount;
