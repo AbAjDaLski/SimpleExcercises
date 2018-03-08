@@ -1,4 +1,4 @@
-package pl.exercises.Task.T35;
+package pl.exercises.OOP.Car;
 
 public class Main {
     public static void main(String[] args) {
