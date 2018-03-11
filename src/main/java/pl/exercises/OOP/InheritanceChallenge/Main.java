@@ -10,6 +10,7 @@ public class Main{
         outlander.accelarate(30);
         outlander.accelarate(20);
         outlander.accelarate(-45);
+        outlander.accelarate(13);
 
 
     }
