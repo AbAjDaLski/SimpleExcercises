@@ -16,7 +16,7 @@ public class Main {
 //        player.loseHealth(damage);
 //        System.out.println("Remaining energy " + player.healthRemining());
 
-        BetterVerPlayer player = new BetterVerPlayer("Jack", 101, "Shotgun");
+        BetterVerPlayer player = new BetterVerPlayer("Jack", -2, "Shotgun");
         System.out.println("Initial energy is " + player.getHealth());
     }
 }

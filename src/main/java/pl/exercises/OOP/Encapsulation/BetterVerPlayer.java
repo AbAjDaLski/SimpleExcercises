@@ -10,6 +10,8 @@ public class BetterVerPlayer {
         this.name = name;
         if (health > 0 && health < 100) {
             this.energy = health;
+        } else {
+            System.out.println("Game over");
         }
 
         this.weapon = weapon;

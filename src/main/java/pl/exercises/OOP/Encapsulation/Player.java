@@ -6,14 +6,14 @@ public class Player {
     public int health;
     public String weapon;
 
-    public void loseHealth(int damage){
-        this.health=this.health-damage;
-        if(this.health<=0){
+    public void loseHealth(int damage) {
+        this.health = this.health - damage;
+        if (this.health <= 0) {
             System.out.println("Player is knocked out");
         }
     }
 
-    public int healthRemining(){
+    public int healthRemining() {
         return this.health;
     }
 }
